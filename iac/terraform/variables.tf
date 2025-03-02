@@ -31,3 +31,12 @@ variable "force_destroy" {
   type        = bool
   default     = true
 }
+
+variable "workflow_name" {
+  description = "The name of the Composer environment"
+  type        = string
+}
+variable "sa_admin" {
+  description = "The service account to use as the Composer admin"
+  type        = string
+}
